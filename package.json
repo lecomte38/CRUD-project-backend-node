@@ -1,0 +1,31 @@
+{
+  "name": "ue3dw_s1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.26.0",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-config": "^29.3.1",
+    "jest-json-schema": "^6.1.0",
+    "jest-junit-reporter": "^1.1.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.2"
+  }
+}
